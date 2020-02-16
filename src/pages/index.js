@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Jordan Miles - Realtor and Photographer" />
+    <SEO title="Home Page" />
     <Body />
   </Layout>
 )
