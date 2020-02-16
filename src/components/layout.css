@@ -1,5 +1,7 @@
 html {
   font-family: sans-serif;
+  min-height: 100vh;
+
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -7,6 +9,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #000;
 }
 article,
 aside,
@@ -103,7 +106,6 @@ figure {
 hr {
   box-sizing: content-box;
   height: 0;
-  overflow: visible;
 }
 button,
 input,
@@ -187,7 +189,6 @@ textarea {
 html {
   font: 112.5%/1.45em georgia, serif;
   box-sizing: border-box;
-  overflow-y: scroll;
 }
 * {
   box-sizing: inherit;
@@ -199,7 +200,7 @@ html {
   box-sizing: inherit;
 }
 body {
-  color: hsla(0, 0%, 0%, 0.8);
+  color: white;
   font-family: georgia, serif;
   font-weight: normal;
   word-wrap: break-word;
@@ -405,7 +406,6 @@ pre {
   line-height: 1.42;
   background: hsla(0, 0%, 0%, 0.04);
   border-radius: 3px;
-  overflow: auto;
   word-wrap: normal;
   padding: 1.45rem;
 }
