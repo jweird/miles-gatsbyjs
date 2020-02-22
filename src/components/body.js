@@ -4,6 +4,8 @@ import BodyStyles from "./body.module.css"
 import pic from "../images/miles.jpg"
 import havasu from "../images/Lake Havasu.jpg"
 import havasu2 from "../images/IMG_0250 2.jpg"
+import { Link } from "gatsby"
+
 const Body = () => (
   <div className={BodyStyles.container}>
     <div className={BodyStyles.col}>
@@ -11,7 +13,7 @@ const Body = () => (
         <h1>JORDAN MILES</h1>
         <h3>REALTOR AND PHOTOGRAPHER</h3>
 
-        <Link to="/page-2">
+        <Link to="/Contact">
           <button className={BodyStyles.button}>BIZ INQUIRES</button>
         </Link>
 
