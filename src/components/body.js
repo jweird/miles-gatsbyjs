@@ -2,7 +2,8 @@ import React from "react"
 import Icons from "../components/icons"
 import BodyStyles from "./body.module.css"
 import pic from "../images/miles.jpg"
-
+import havasu from "../images/Lake Havasu.jpg"
+import havasu2 from "../images/IMG_0250 2.jpg"
 const Body = () => (
   <div className={BodyStyles.container}>
     <div className={BodyStyles.col}>
@@ -15,7 +16,11 @@ const Body = () => (
     </div>
 
     <div className={BodyStyles.col}>
-      <img className={BodyStyles.miles} src={pic} alt="Jordan Miles Realtor" />
+      <img
+        className={BodyStyles.miles}
+        src={havasu2}
+        alt="Jordan Miles Realtor"
+      />
     </div>
   </div>
 )
