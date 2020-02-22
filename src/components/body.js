@@ -10,7 +10,11 @@ const Body = () => (
       <div className={BodyStyles.text}>
         <h1>JORDAN MILES</h1>
         <h3>REALTOR AND PHOTOGRAPHER</h3>
-        <button className={BodyStyles.button}>BIZ INQUIRES</button>
+
+        <Link to="/page-2">
+          <button className={BodyStyles.button}>BIZ INQUIRES</button>
+        </Link>
+
         <Icons />
       </div>
     </div>
