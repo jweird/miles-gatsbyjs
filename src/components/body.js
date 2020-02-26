@@ -21,7 +21,7 @@ const Body = () => (
       </div>
     </div>
 
-    <div className={BodyStyles.col}>
+    <div className={BodyStyles.imgcont}>
       <img
         className={BodyStyles.miles}
         src={havasu2}

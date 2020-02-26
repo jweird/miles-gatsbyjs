@@ -32,9 +32,55 @@
 }
 
 .miles {
+  justify-content: right;
   margin: 0px;
-  text-align: center;
+  text-align: right;
   height: 100vh;
   margin: 0px;
   position: absolute;
+}
+
+.imgcont {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  flex: 1;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 1024px) {
+  .container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .imgcont {
+    height: 100vh;
+    flex: 1;
+    position: unset !important;
+    flex-direction: row;
+  }
+
+  .text {
+    margin: unset !important;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+  }
+
+  .col {
+    display: flex;
+    flex-direction: row;
+    flex-basis: unset;
+    flex: unset;
+  }
+
+  .miles {
+    justify-content: center;
+    text-align: center;
+    min-width: unset !important;
+    min-height: unset !important;
+    position: unset;
+  }
 }
