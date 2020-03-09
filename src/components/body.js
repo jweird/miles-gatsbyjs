@@ -8,6 +8,14 @@ import { Link } from "gatsby"
 
 const Body = () => (
   <div className={BodyStyles.container}>
+    <div className={BodyStyles.colmobile}>
+      <img
+        className={BodyStyles.miles}
+        src={havasu2}
+        alt="Jordan Miles Realtor"
+      />
+    </div>
+
     <div className={BodyStyles.col}>
       <div className={BodyStyles.text}>
         <h1>JORDAN MILES</h1>

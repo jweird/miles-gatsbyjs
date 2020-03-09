@@ -31,6 +31,10 @@
   padding: 15px;
 }
 
+.colmobile {
+  display: none;
+}
+
 .miles {
   justify-content: right;
   margin: 0px;
@@ -56,7 +60,7 @@
   }
 
   .imgcont {
-    height: 100vh;
+    height: 50vh;
     flex: 1;
     position: unset !important;
     flex-direction: row;
