@@ -13,10 +13,10 @@ const Icons = () => (
     <a href="https://www.linkedin.com/in/jordanmiles212/" target="_blank">
       <img className={IconStyles.icons} src={linkd} alt="" />
     </a>
-    <a href="https://www.instagram.com/jordanmiless/" target="_blank">
+    <a href="https://www.twitter.com/pineapplemiles/" target="_blank">
       <img className={IconStyles.icons} src={twit} alt="" />
     </a>
-    <a href="https://www.instagram.com/jordanmiless/" target="_blank">
+    <a href="https://www.facebook.com/jordan.miles.31/" target="_blank">
       <img className={IconStyles.icons} src={facebook} alt="" />
     </a>
   </div>

@@ -66,22 +66,15 @@ const Form = () => (
             Submit
           </button>
         </p>
-        <p>
-          <button
-            className={contactStyles.contbutton}
-            type="submit"
-            center={true}
-          >
-            <Link
-              to="/"
-              style={{ color: "inherit", textDecoration: "inherit" }}
-            >
-              Go Back
-            </Link>
-          </button>
-        </p>
       </form>
     </div>
+    <p>
+      <button className={contactStyles.contbutton} center={true}>
+        <Link to="/" style={{ color: "inherit", textDecoration: "inherit" }}>
+          Go Back
+        </Link>
+      </button>
+    </p>
   </div>
 )
 
