@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Jordan Miles - Orange County Realtor and Photographer`,
-    description: `Jordan Miles is an amaing realtor working in the Orange County area. `,
+    description: `Jordan Miles is an amazing realtor working in the Orange County area. `,
     author: `@gatsbyjs`,
   },
   plugins: [
