@@ -8,9 +8,6 @@ const SecondPage = () => (
   <Layout>
     <SEO title="Contact Me" />
     <Form />
-    <div>
-      <p>Click here to go back </p>
-    </div>
   </Layout>
 )
 
