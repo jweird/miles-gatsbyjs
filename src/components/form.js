@@ -42,11 +42,11 @@ const Form = () => (
         <input type="hidden" name="form-name" value="contact" />
         <p>
           Name:
-          <input placeholder="Name" type="text" name="name" />
+          <input placeholder="Name*" type="text" name="name" required />
         </p>
         <p>
           Email:
-          <input placeholder="Email" type="email" name="email" />
+          <input placeholder="Email*" type="email" name="email" required />
         </p>
         <p>
           Phone Number:
@@ -55,7 +55,7 @@ const Form = () => (
 
         <p>
           Message:
-          <textarea name="message" placeholder="Message" rows="6" />
+          <textarea name="message" placeholder="Message*" rows="6" required />
         </p>
         <p>
           <button
